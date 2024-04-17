@@ -25,7 +25,7 @@ const Index = () => {
   return (
     <VStack spacing={4} p={5}>
       <Flex width="full" justifyContent="center">
-        <Input placeholder="Enter URL here" value={url} onChange={handleUrlChange} size="lg" width="auto" flexGrow={1} mr={2} />
+        <Input placeholder="Enter URL here" value={url} onChange={handleUrlChange} size="lg" width="100%" flexGrow={1} mr={2} />
         <Button leftIcon={<FaMarkdown />} colorScheme="blue" onClick={handleGenerateMarkdown}>
           Generate Markdown
         </Button>
